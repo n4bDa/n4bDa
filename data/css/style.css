@@ -1460,7 +1460,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 		margin-left:auto;
 		margin-right:auto;
 		font-size: 14px;
-		width: 350px;
+		width: 323px;
 		height: 300px;
 		-webkit-transition: .3s all ease-in-out;
 		-o-transition: .3s all ease-in-out;
@@ -1933,13 +1933,13 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 @media (max-width: 1200px) {
 	.block-testimony-4 {
 		background: rgba(0, 0, 0, .2);
-		margin-top: 20px;
+		margin-top: 0;
 		margin-right: 200px;
-		font-size: 13px;
-		line-height: 22px;
+		font-size: 10px;
+		line-height: 15px;
 		max-width: 87.5%;
 		width: 420px;
-		height: 210px;
+		height: 140px;
 	}
 }
 /*end - custom_blocks*/
