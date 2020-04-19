@@ -681,7 +681,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	z-index: 2000;
 	padding-top: 20px;
 	background: #fff;
-	height: 365px;
+	height: 455px;
 	-webkit-transform: translateX(110%);
 	-ms-transform: translateX(110%);
 	transform: translateX(110%);
@@ -957,6 +957,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 		padding: 3rem 0;
 	}
 }
+
 .block-heading-1 span {
 	font-size: 12px;
 	letter-spacing: .1em;
@@ -1973,8 +1974,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 /*end - other_elements*/
 
 .paslaugos {
-	text-align: justify;
-	text-justify: inter-word;
+
 }
 .kainos {
 	text-align: left;
@@ -2032,8 +2032,54 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	color: transparent:
 }
 
+.linin-icon {
+	color: #0077b5;
+}
+
 .re {
   resize: none;
+}
+
+#button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f0aa";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.5em;
+  line-height: 50px;
+  color: #000;
+}
+
+#button:hover {
+  background-color: rgba(29, 107, 54, 0.3);
+  cursor: pointer;
+}
+
+#button:active {
+  background-color: rgba(29, 107, 54, 0.6);
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hd {
+	margin-bottom:-77px;
 }
 
 /*end - other_elements*/

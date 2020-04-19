@@ -26,16 +26,35 @@ img {
     display: inline-block;
 }
 
+@media (max-width: 768px) {
+	.placeholder-icon-1 {
+    width: 20px;
+    display: inline-block;
+	}
+}
+
 .placeholder-txt-1 {
 	font-size:20px;
 }
 
+@media (max-width: 768px) {
+	.placeholder-txt-1 {
+	font-size:14px;
+	}
+}
+
 .placeholder-txt-2 {
-	font-size:18px;
+	font-size:16px;
+}
+
+@media (max-width: 768px) {
+	.placeholder-txt-2 {
+	font-size:14px;
+	}
 }
 
 .tbl {
-	font-size:26px;
+	font-size:18px;
 	background-color: transparent;
 }
  
@@ -53,6 +72,7 @@ img {
 .column, .columns {
 	width: 100%;
 	float: left;
+	margin-left: auto;
 	padding-left: .250rem;
 	padding-right: .625rem;
 }

@@ -11,7 +11,7 @@
 <div class="jumbotron text-center">
   <div class="element-image"><img src="data/images/tn-chk.svg" class="icon-color-filter" width="64"></div><br>
   <h1 class="display-3">Ačiū!</h1>
-  <p class="lead"><strong>Kuo skubiau su jumis susisieksime!</p>
+  <p class="lead"><strong>Mūsų vadybininkas su Jumis artimiausiu metu susisieks.<br>Gražios dienos.</p>
   <hr>
   <p class="lead">
     <a class="btn btn-primary btn-sm thankyou" href="https://loginesa.lt" role="button">Grįžti į loginesa.lt</a>
