@@ -938,7 +938,6 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	font-size: 4.5rem;
 	color: #fff;
 	line-height: 1;
-	font
 }
 @media (max-width: 991.98px) {
 	.site-section-cover h1 {
@@ -1464,6 +1463,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 		font-size: 14px;
 		width: 323px;
 		height: 300px;
+		transition: .3s all ease-in-out;
 		-webkit-transition: .3s all ease-in-out;
 		-o-transition: .3s all ease-in-out;
 		border-radius: 25px;
@@ -1683,6 +1683,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	background-color: #1d6b36;
 	padding: 20px 0 0 0;
 	color: #fff;
+	text-align: center;
 }
 @media (max-width: 767px) {
 	.footer_bottom {
@@ -2021,6 +2022,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .in-icon {
 	background: -webkit-linear-gradient(315deg,#515BD4,#8134AF,#DD2A7B,#FEDA77,#F58529);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -2029,7 +2031,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	background: #1d6b36;
 	-webkit-background-clip: text;
 	background-clip: text;
-	color: transparent:
+	color: transparent;
 }
 
 .linin-icon {

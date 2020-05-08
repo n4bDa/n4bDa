@@ -1152,9 +1152,7 @@ table.hover tr:nth-of-type(even):hover {
 .clearfix::after {
 	clear: both;
 }
-	{
-	min-width: 295px;
-}
+
 .hs {
 	margin-left: .2em;
 }
