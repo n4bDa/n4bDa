@@ -2084,6 +2084,10 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	margin-bottom:-77px;
 }
 
+.ft {
+	width:100%;
+}
+
 /*end - other_elements*/
 
 /* Smartphones (portrait and landscape) ----------- */
