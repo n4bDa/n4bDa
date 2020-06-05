@@ -2088,6 +2088,10 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	width:100%;
 }
 
+.checked {
+  color: #1d6b36;
+}
+
 /*end - other_elements*/
 
 /* Smartphones (portrait and landscape) ----------- */
