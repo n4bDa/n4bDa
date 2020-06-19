@@ -10,7 +10,7 @@
 <body>
 <div class="jumbotron text-center">
   <div class="element-image"><img src="data/images/tn-chk.svg" class="icon-color-filter" width="64"></div><br>
-  <h1 class="display-3">Ačiū, Jūsų užklausą gavome. Gražios dienos</h1>
+  <h1 class="display-3">Ačiū, Jūsų užklausą gavome.</h1>
   <p class="lead"><strong>Su Jumis artimiausiu metu susisieks mūsų vadybininkas. <br>Gražios dienos.</p>
   <hr>
   <p class="lead">
