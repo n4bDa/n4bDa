@@ -859,8 +859,7 @@
 		<button class="btn btn-primary" onclick="openForm()">Palikti atsiliepimą</button>
 
 		<div class="form-popup" id="myForm">
-			<form action="atsiliepimai" name="contact" method="POST" data-netlify="true" class="form-container">
-
+			<form name="feedback" method="POST" data-netlify="true" action="feedbackmsg" class="form-container">
 				<label for="email"><b>Klientas</b></label>
 				<input type="text" placeholder="" name="name" required>
 
@@ -986,7 +985,7 @@
 					</div>
 				</div>
 				<div class="fr" id="contact-form">
-					<form name="contact" action="aciu" method="POST" data-netlify="true">
+					<form name="contact" method="POST" data-netlify="true" action="contactmsg">
 						<div class="title">
 							Parašykite mums
 						</div>
